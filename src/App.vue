@@ -1,19 +1,14 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Kahoot" />
-    <router-link :to="{ name: 'homepage' }">Home</router-link>
-    <router-view></router-view>
+    <!-- <router-link :to="{ name: 'homepage' }"></router-link> -->
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: {},
 };
 </script>
 
